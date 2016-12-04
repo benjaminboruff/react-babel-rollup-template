@@ -1,8 +1,7 @@
 // @flow
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-function App(props: { message: string }){
+function App(props: { message: string }): React$Element<{}>{
     return <h1> Hello {props.message} </h1>;
 }
 
